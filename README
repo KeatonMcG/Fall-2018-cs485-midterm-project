@@ -1,0 +1,20 @@
+Description
+==================================
+This repository holds the Asets folder for our cs 485-midterm-project. The game inside is called Defense scheme 
+and can be run by downloading the repositoy opening up one of the game scenes and building the project with Unity.
+While we did design the game ourselves we did use some tutorials to help implement our ideas as none of our group
+members have much experience with Unity. Any tutorials and sound used in the game are listed below.
+
+References
+==================================
+Sound: 
+Confusion by ELO karaoke: https://www.youtube.com/watch?v=dw7eLooC1GA
+Everything I Do by Bryan Adams: https://www.youtube.com/watch?v=fXtlWmBM-HU
+Concrete sound effect: https://www.youtube.com/watch?v=7BNxIWxI2u4
+Laser Gun sound effect: https://www.youtube.com/watch?v=sjcomokUNN4
+
+Tutorials:
+In class example: https://github.com/xye-csusm/SampleProject4/commits/master (MiniMap, Shooting bullets, HealthBar)
+Roll A ball: https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+How to add timer: https://www.youtube.com/watch?v=VVZudrLh5EA
+Shooting projectiles tutorial: https://www.youtube.com/watch?v=1UekWA1osNw
