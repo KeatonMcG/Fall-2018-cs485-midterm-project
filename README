@@ -5,6 +5,11 @@ and can be run by downloading the repositoy opening up one of the game scenes an
 While we did design the game ourselves we did use some tutorials to help implement our ideas as none of our group
 members have much experience with Unity. Any tutorials and sound used in the game are listed below.
 
+Controls
+==================================
+Use the left and right arrow keys to rotate the tower.
+Use the spacebar to fire.
+
 References
 ==================================
 Sound: 
