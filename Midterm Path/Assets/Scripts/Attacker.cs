@@ -46,35 +46,18 @@ public class Attacker : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-        //Tscript = (TowerCannon)target.gameObject.GetComponent(typeof(TowerCannon));
-        //Debug.Log("checking1");
         if (col.gameObject.tag == "Projectile")
         {
-            print("checking bullet");
-
-         
-
             Destroy(this);
-            //Instantiate(explosion, transform.position, transform.rotation);
             Destroy(gameObject);
-
-            sCounter.setCountText();
-            //Tscript.setCountText();
-            print("checking bullet collision pass");
-            //Tscript.setCountText();
-        
         }
     }
     void OnCollisionStay (Collision col)
     {
-        //  Debug.Log("checking");
-       // Tscript = (TowerCannon)target.gameObject.GetComponent(typeof(TowerCannon));
         if (col.gameObject.tag == "Defender")
         {
             Destroy(this);
-            //Instantiate(explosion, transform.position, transform.rotation);
             Destroy(gameObject);
-           // Tscript.setHealthText();
         }
     }
 }
