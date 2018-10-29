@@ -10,12 +10,6 @@ public class TowerCannon : MonoBehaviour {
     public GameObject BulletPrefab;
     public Transform BulletSpawn;
 
-    public Text countText;
-    public Text healthText;
-    public Text loseText;
-    public int count;
-    public int health;
-
     public float BulletVelocity = 25;
     public float timeAlive = 3;
 
